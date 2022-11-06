@@ -8,6 +8,7 @@
     <style>
         .card_checkbox{
             height: 150px !important;
+            font-size: 1.3vw;
         }
     </style>
   </head>
@@ -25,7 +26,7 @@
             <div></div>
         @endforelse
 
-        <div class="mt-5">
+        <div class="col-12 mt-3 row">
             <form action="" method="POST">
                 @csrf
                 <div class="row">
@@ -57,7 +58,7 @@
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B4" id="b04">
-                              <label class="form-check-label stretched-link" for="b04">banyak rambut yang terlepas ketika sedang keramas atau menyisir rambut</label>
+                              <label class="form-check-label stretched-link" for="b04">Banyak rambut yang terlepas ketika sedang keramas atau menyisir rambut</label>
                             </li>
                         </ul>
                     </div>
@@ -89,7 +90,7 @@
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B8" id="b08">
-                              <label class="form-check-label stretched-link" for="b08">pengelupasan pada kulit kepala</label>
+                              <label class="form-check-label stretched-link" for="b08">Pengelupasan pada kulit kepala</label>
                             </li>
                         </ul>
                     </div>
@@ -197,13 +198,12 @@
                             </li>
                         </ul>
                     </div>
-                    
-
-                    <button class="btn btn-primary mt-5" type="submit">Cek Kemungkinan</button>
-                    
                 </div>
+                <div class="d-grid gap-2 col-2 mx-auto">
+                    <button class="btn" type="submit" style="box-shadow: inset 0 0 0 200px #99C3A6; border-radius: 20px; font-weight:bold;">Cek Kemungkinan</button>
+                </div>
+                <br>
             </form>
-
             
         </div>
     </div>
