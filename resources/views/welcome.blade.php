@@ -17,15 +17,33 @@
         <div class="mt-3">
             <h1 class="text-center" >Hair Loss Expert System</h1>
         </div>
+        @if (session()->has('alert'))
+        <div class="alert alert-danger" role="alert">
+          {{ session('alert') }}
+        </div>
+        @endif
+        
+        
+        @forelse ($penyakitYangDiderita as $nama_penyakit)
+        
+            <h1>{{ $nama_penyakit }}</h1>
 
-        @forelse ($kemungkinans as $kemungkinan)
-                
-                <h1>{{ $kemungkinan['nama_kemungkinan'] }}</h1>
-                
+
+        
+        
         @empty
-            <div></div>
+            <div class=""></div>
         @endforelse
-
+        
+        
+            <div><h1>{{'presentase mengalami Kerontokan rambut : '. $presentaseKelK01 .'%' }}</h1></div>
+            <div><h1>{{'presentase mengalami Ketombe (Danduff) : '. $presentaseKelK02 .'%'}}</h1></div>
+            <div><h1>{{'presentase mengalami Infeksi pada kulit kepala : '. $presentaseKelK03 .'%'}}</h1></div>
+            <div><h1>{{'presentase mengalami Rambut kering : '. $presentaseKelK04 .'%'}}</h1></div>
+            <div><h1>{{'presentase mengalami Kulit kepala berminyak : '. $presentaseKelK05 .'%'}}</h1></div>
+        
+        
+        
         <div class="col-12 mt-3 row">
             <form action="" method="POST">
                 @csrf
@@ -199,6 +217,7 @@
                         </ul>
                     </div>
                 </div>
+               
                 <div class="d-grid gap-2 col-2 mx-auto">
                     <button class="btn" type="submit" style="box-shadow: inset 0 0 0 200px #99C3A6; border-radius: 20px; font-weight:bold;">Cek Kemungkinan</button>
                 </div>
@@ -207,6 +226,8 @@
             
         </div>
     </div>
+    <script>
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
