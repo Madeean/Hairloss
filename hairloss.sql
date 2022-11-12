@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2022 at 12:42 PM
+-- Generation Time: Nov 12, 2022 at 02:31 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.0.23
 
@@ -65,7 +65,6 @@ INSERT INTO `kemungkinans` (`id`, `code_kemungkinan`, `nama_kemungkinan`, `gejal
 (6, 'K01', 'Kerontokan rambut', 'B6', NULL, NULL),
 (7, 'K01', 'Kerontokan rambut', 'B7', NULL, NULL),
 (8, 'K02', 'Ketombe (Dandruff)', 'B1', NULL, NULL),
-(9, 'K02', 'Ketombe (Dandruff)', 'B1', NULL, NULL),
 (10, 'K02', 'Ketombe (Dandruff)', 'B2', NULL, NULL),
 (11, 'K02', 'Ketombe (Dandruff)', 'B8', NULL, NULL),
 (12, 'K02', 'Ketombe (Dandruff)', 'B9', NULL, NULL),
