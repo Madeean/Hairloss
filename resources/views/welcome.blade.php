@@ -36,11 +36,11 @@
         @endforelse
         
         
-            <div><h1>{{'presentase mengalami Kerontokan rambut : '. $presentaseKelK01 .'%' }}</h1></div>
-            <div><h1>{{'presentase mengalami Ketombe (Danduff) : '. $presentaseKelK02 .'%'}}</h1></div>
-            <div><h1>{{'presentase mengalami Infeksi pada kulit kepala : '. $presentaseKelK03 .'%'}}</h1></div>
-            <div><h1>{{'presentase mengalami Rambut kering : '. $presentaseKelK04 .'%'}}</h1></div>
-            <div><h1>{{'presentase mengalami Kulit kepala berminyak : '. $presentaseKelK05 .'%'}}</h1></div>
+            <div><h1>{{'Kemungkinan Kerontokan rambut : '. $presentaseKelK01 .'%' }}</h1></div>
+            <div><h1>{{'Kemungkinan mengalami Ketombe (Danduff) : '. $presentaseKelK02 .'%'}}</h1></div>
+            <div><h1>{{'Kemungkinan mengalami Infeksi pada kulit kepala : '. $presentaseKelK03 .'%'}}</h1></div>
+            <div><h1>{{'Kemungkinan mengalami Rambut kering : '. $presentaseKelK04 .'%'}}</h1></div>
+            <div><h1>{{'Kemungkinan mengalami Kulit kepala berminyak : '. $presentaseKelK05 .'%'}}</h1></div>
         
         
         
