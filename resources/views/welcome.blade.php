@@ -13,6 +13,16 @@
     </style>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class=" navbar-nav mx-auto">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link" href="/about-us">About Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <div class="container">
         <div class="mt-3">
             <h1 class="text-center" >Hair Loss Expert System</h1>
@@ -24,23 +34,7 @@
         @endif
         
         
-        @forelse ($penyakitYangDiderita as $nama_penyakit)
         
-            <h1>{{ $nama_penyakit }}</h1>
-
-
-        
-        
-        @empty
-            <div class=""></div>
-        @endforelse
-        
-        
-            <div><h1>{{'Kemungkinan Kerontokan rambut : '. $presentaseKelK01 .'%' }}</h1></div>
-            <div><h1>{{'Kemungkinan mengalami Ketombe (Danduff) : '. $presentaseKelK02 .'%'}}</h1></div>
-            <div><h1>{{'Kemungkinan mengalami Infeksi pada kulit kepala : '. $presentaseKelK03 .'%'}}</h1></div>
-            <div><h1>{{'Kemungkinan mengalami Rambut kering : '. $presentaseKelK04 .'%'}}</h1></div>
-            <div><h1>{{'Kemungkinan mengalami Kulit kepala berminyak : '. $presentaseKelK05 .'%'}}</h1></div>
         
         
         

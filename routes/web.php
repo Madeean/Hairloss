@@ -15,12 +15,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $penyakitYangDiderita=[];
-    $presentaseKelK01=0;
-    $presentaseKelK02=0;
-    $presentaseKelK03=0;
-    $presentaseKelK04=0;
-    $presentaseKelK05=0;
-    return view('welcome',compact('penyakitYangDiderita','presentaseKelK01','presentaseKelK02','presentaseKelK03','presentaseKelK04','presentaseKelK05'));
+    
+    return view('welcome');
 });
 Route::post('/', [KemungkinanController::class, 'cekKemungkinan']);
+
+Route::get('/periksa', function () {
+    return view('periksa');
+});
+
+Route::get('/about-us',function(){
+    return view('aboutus');
+});

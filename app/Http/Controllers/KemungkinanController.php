@@ -102,6 +102,6 @@ class KemungkinanController extends Controller
             
         
             
-        return view('welcome', compact('penyakitYangDiderita','presentaseKelK01','presentaseKelK02','presentaseKelK03','presentaseKelK04','presentaseKelK05'))->with('presentase','');
+        return view('periksa', compact('penyakitYangDiderita','presentaseKelK01','presentaseKelK02','presentaseKelK03','presentaseKelK04','presentaseKelK05'))->with('presentase','');
     }
 }
