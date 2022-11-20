@@ -29,15 +29,15 @@
       </div>
     </nav>
     <div class="container py-5 px-lg-5">
-      <div class="wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+      <div style="visibility: visible;">
           <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p>
           <h1 class="text-center mb-5">Our Team Members</h1>
       </div>
       <div class="row g-4">
-        <div class="col-lg-4 col-md-6 wow fadeInUp" style="visibility: visible;">
+        <div class="col-lg-4 col-md-6" style="visibility: visible;">
           <div class="team-item bg-light rounded">
             <div class="text-center border-bottom p-4">
-              <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
+              <img class="img-fluid rounded-circle mb-4" src={{ asset('img/img1.png')}} alt="">
               <h5>Brigitta Rubianty</h5>
               <span>00000042572</span>
             </div>
@@ -46,10 +46,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" style="visibility: visible;">
+        <div class="col-lg-4 col-md-6" style="visibility: visible;">
           <div class="team-item bg-light rounded">
             <div class="text-center border-bottom p-4">
-              <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
+              <img class="img-fluid rounded-circle mb-4" src={{ asset('img/img2.png')}} alt="">
               <h5>Made Reihan Diva Suarna</h5>
               <span>00000044540</span>
             </div>
@@ -58,10 +58,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" style="visibility: visible;">
+        <div class="col-lg-4 col-md-6" style="visibility: visible;">
           <div class="team-item bg-light rounded">
             <div class="text-center border-bottom p-4">
-              <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
+              <img class="img-fluid rounded-circle mb-4" src={{ asset('img/img3.png')}} alt="">
               <h5>Octavienlly Handoko</h5>
               <span>00000043406</span>
             </div>
@@ -70,10 +70,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" style="visibility: visible;">
+        <div class="col-lg-4 col-md-6" style="visibility: visible;">
           <div class="team-item bg-light rounded">
             <div class="text-center border-bottom p-4">
-              <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
+              <img class="img-fluid rounded-circle mb-4" src={{ asset('img/img4.png')}} alt="">
               <h5>Ricaro Alisio</h5>
               <span>00000044424</span>
             </div>
@@ -82,10 +82,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" style="visibility: visible;">
+        <div class="col-lg-4 col-md-6" style="visibility: visible;">
           <div class="team-item bg-light rounded">
             <div class="text-center border-bottom p-4">
-              <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
+              <img class="img-fluid rounded-circle mb-4" src={{ asset('img/img5.png')}} alt="">
               <h5>Theo Renaldi</h5>
               <span>00000051463</span>
             </div>
