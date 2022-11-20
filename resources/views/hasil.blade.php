@@ -23,7 +23,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav mx-auto py-0">
-            <a href="/" class="nav-item nav-link active">Home</a>
+            <a href="/" class="nav-item nav-link">Home</a>
             <a href="/about-us" class="nav-item nav-link">About Us</a>
         </div>
         </div>
@@ -113,6 +113,17 @@
         <div class="d-grid gap-2 col-2 mx-auto">
             <a type="button" class="btn btn-primary py-sm-2 px-sm-4 rounded-pill" href="/periksa" style="margin-top:30px; font-weight:bold;">Kembali</a>
         </div>
+    </div>
+    <div class="container-fluid bg-primary text-light footer" style="visibility: visible;">
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              © <a class="border-bottom" href="#">Hair Loss Expert System</a>, All Right Reserved. 
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
