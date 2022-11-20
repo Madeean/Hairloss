@@ -9,10 +9,10 @@ use Symfony\Component\Console\Output\ConsoleOutput;
 class KemungkinanController extends Controller
 {
     public function cekKemungkinan(Request $request){
-        
+        // check if the request is null or not
 
         // dd(count($request->input('gejala')));
-        if(count($request->input('gejala')) == 1 ||count($request->input('gejala')) == 2){
+        if( $request->input('gejala') == null|| count($request->input('gejala')) == 1 ||count($request->input('gejala')) == 2){
             return redirect()->back()->with('alert','Pilih minimal 3 gejala');
             // dd('Pilih Gejala Minimal 3');
         }
@@ -102,6 +102,6 @@ class KemungkinanController extends Controller
             
         
             
-        return view('periksa', compact('penyakitYangDiderita','presentaseKelK01','presentaseKelK02','presentaseKelK03','presentaseKelK04','presentaseKelK05'))->with('presentase','');
+        return view('hasil', compact('penyakitYangDiderita','presentaseKelK01','presentaseKelK02','presentaseKelK03','presentaseKelK04','presentaseKelK05'))->with('presentase','');
     }
 }
