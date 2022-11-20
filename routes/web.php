@@ -17,10 +17,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post('/', [KemungkinanController::class, 'cekKemungkinan']);
+Route::post('/periksa', [KemungkinanController::class, 'cekKemungkinan']);
 
 Route::get('/periksa', function () {
     return view('periksa');
+});
+Route::get('/hasil', function () {
+    return view('hasil');
 });
 
 Route::get('/about-us',function(){

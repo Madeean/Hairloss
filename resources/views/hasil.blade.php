@@ -31,7 +31,7 @@
     <div class="container">
         @forelse ($penyakitYangDiderita as $nama_penyakit)
         
-            <h1>{{ $nama_penyakit }}</h1>
+            <h1 class="nama_penyakit">{{ $nama_penyakit }}</h1>
 
             @if ($nama_penyakit == "Kerontokan Rambut")
                 <h1>Treament kerontokan rambut : </h1>
@@ -61,7 +61,7 @@
         <div><h1>{{'Kemungkinan mengalami Rambut kering : '. $presentaseKelK04 .'%'}}</h1></div>
         <div><h1>{{'Kemungkinan mengalami Kulit kepala berminyak : '. $presentaseKelK05 .'%'}}</h1></div>
 
-        <a type="button" class="btn btn-primary"  href="/">Back</a>
+        <a type="button" class="btn btn-primary"  href="/periksa">Back</a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
