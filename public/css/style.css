@@ -6,7 +6,6 @@ body {
     background: #f3f1f3;
 }
 
-/********** Template CSS **********/
 :root {
     --primary: #e23e07;
     --secondary: #fba504;
@@ -14,7 +13,10 @@ body {
     --dark: #04000b;
 }
 
+<<<<<<< Updated upstream
 /*** Spinner ***/
+=======
+>>>>>>> Stashed changes
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -36,7 +38,10 @@ body {
     z-index: 99;
 }
 
+<<<<<<< Updated upstream
 /*** Heading ***/
+=======
+>>>>>>> Stashed changes
 h1,
 h2,
 .fw-bold {
@@ -55,7 +60,10 @@ h6,
     font-weight: 500 !important;
 }
 
+<<<<<<< Updated upstream
 /*** Button ***/
+=======
+>>>>>>> Stashed changes
 .btn {
     font-weight: 500;
     transition: 0.5s;
@@ -91,10 +99,16 @@ h6,
     border-radius: 50px;
 }
 
+<<<<<<< Updated upstream
 /*** Navbar ***/
 .navbar {
     background-color: #e23e07;
     height: 10%;
+=======
+.navbar{
+  background-color: #E23E07;
+  height:10%;
+>>>>>>> Stashed changes
 }
 .navbar-light .navbar-nav .nav-link {
     position: relative;
