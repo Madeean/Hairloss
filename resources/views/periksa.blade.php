@@ -15,25 +15,26 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <a href="" class="navbar-brand p-0">
-        <h1 class="m-0">Hair Loss</h1>
+        <a href="/" class="navbar-brand p-0">
+            <h1 href="/" class="m-0">Hair Loss</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="fa fa-bars"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav mx-auto py-0">
-            <a href="/" class="nav-item nav-link active">Home</a>
+            <a href="/" class="nav-item nav-link">Home</a>
             <a href="/about-us" class="nav-item nav-link">About Us</a>
         </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="mt-3">
-            <h1 class="text-center" >Hair Loss Expert System</h1>
+    <div class="container py-5 px-lg-5">
+        <div style="visibility: visible;">
+          <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p>
+          <h1 class="text-center mb-2">Gejala yang dialami</h1>
         </div>
         @if (session()->has('alert'))
-        <div class="alert alert-danger" role="alert">
+        <div class="alert alert-danger" role="alert" style="text-align:center; font-weight:bold; color:red">
           {{ session('alert') }}
         </div>
         @endif
@@ -42,7 +43,7 @@
             <form action="" method="POST">
                 @csrf
                 <div class="row">
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group ">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B1" id="b01">
@@ -50,7 +51,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B2" id="b02">
@@ -58,7 +59,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B3" id="b03">
@@ -66,7 +67,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B4" id="b04">
@@ -74,7 +75,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B5" id="b05">
@@ -82,7 +83,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B6" id="b06">
@@ -90,7 +91,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B7" id="b07">
@@ -98,7 +99,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B8" id="b08">
@@ -106,7 +107,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B9" id="b09">
@@ -114,7 +115,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B10" id="b010">
@@ -122,7 +123,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B11" id="b011">
@@ -130,7 +131,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B12" id="b012">
@@ -138,7 +139,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B13" id="b013">
@@ -146,7 +147,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B14" id="b014">
@@ -154,7 +155,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B15" id="b015">
@@ -162,7 +163,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B16" id="b016">
@@ -170,7 +171,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B17" id="b017">
@@ -178,7 +179,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B18" id="b018">
@@ -186,7 +187,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B19" id="b019">
@@ -194,7 +195,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B20" id="b020">
@@ -202,7 +203,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3 mt-2">
+                    <div class="col-4 mt-2">
                         <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1 " name="gejala[]" type="checkbox" value="B21" id="b021">
@@ -213,7 +214,7 @@
                 </div>
                
                 <div class="d-grid gap-2 col-2 mx-auto">
-                    <button class="btn" type="submit" style="box-shadow: inset 0 0 0 200px #99C3A6; border-radius: 20px; font-weight:bold;">Cek Kemungkinan</button>
+                    <button class="btn btn-primary py-sm-3 px-sm-9 rounded-pill" type="submit" style="margin-top:30px; font-weight:bold;">Cek Kemungkinan</button>
                 </div>
                 <br>
             </form>

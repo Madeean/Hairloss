@@ -15,8 +15,8 @@
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-    <a href="" class="navbar-brand p-0">
-      <h1 class="m-0">Hair Loss</h1>
+    <a href="/" class="navbar-brand p-0">
+      <h1 href="/" class="m-0">Hair Loss</h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
       <span class="fa fa-bars"></span>
@@ -66,7 +66,7 @@
               <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"></div>
               </div>
             </div>
-            <a href="/periksa" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Mari Periksa!</a>
+            <a href="/periksa" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3" style="font-weight:bold">Mari Periksa!</a>
           </div>
           <div class="col-lg-6">
             <img class="img-fluid" src="img/pict.png" style="visibility: visible;">
