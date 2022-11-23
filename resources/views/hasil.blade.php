@@ -158,7 +158,7 @@
                 melembapkan rambut yang kering.</br></br><b>Jangan Sering Terpapar Panas</b></br>Hindari terlalu sering melakukan penataan rambut yang menggunakan suhu panas, misalnya dengan pengering, 
                 pengeriting, atau pelurus rambut.Saat mandi, sebaiknya hindari juga pemakaian air panas yang terlalu sering. Setelah keramas, Anda cukup mengeringkan rambut dengan handuk secara 
                 pelan dan lembut, agar kelembapan rambut tetap terjaga.
-                </br></br><a hred="https://www.alodokter.com/trik-melakukan-perawatan-rambut-kering#:~:text=Seseorang%20bisa%20mengalami%20rambut%20kering,mengandung%20klorin%20atau%20di%20laut.">Source</a>
+                </br></br><a href="https://www.alodokter.com/trik-melakukan-perawatan-rambut-kering#:~:text=Seseorang%20bisa%20mengalami%20rambut%20kering,mengandung%20klorin%20atau%20di%20laut.">Source</a>
           
               </h6>
 
@@ -173,6 +173,7 @@
                 melembapkan rambut yang kering.</br></br><b>Jangan Sering Terpapar Panas</b></br>Hindari terlalu sering melakukan penataan rambut yang menggunakan suhu panas, misalnya dengan pengering, 
                 pengeriting, atau pelurus rambut.Saat mandi, sebaiknya hindari juga pemakaian air panas yang terlalu sering. Setelah keramas, Anda cukup mengeringkan rambut dengan handuk secara 
                 pelan dan lembut, agar kelembapan rambut tetap terjaga.
+              </br></br><a href="https://www.alodokter.com/komunitas/topic/rambut-lepek-dan-berminyak">Source</a>
           </h6>
 
         @endif
@@ -295,7 +296,7 @@
                   <li>Rendam rambut dalam campuran seperempat cangkir cuka dan satu baskom kecil air. Lalu bilas dengan air hangat.</li>
                 </ul>
 
-                </br></br><a href="https://www.alodokter.com/komunitas/topic/rambut-lepek-dan-berminyak"></a>
+                </br></br><a href="https://www.alodokter.com/komunitas/topic/rambut-lepek-dan-berminyak">Source</a>
                 </h6>
                 <?php
                 $cek5 = 1;
