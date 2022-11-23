@@ -115,7 +115,8 @@
                 Cara menata rambut yang tidak tepat juga bisa menyebabkan rambut mudah rusak, patah, dan rontok. Misalnya, mengikat rambut terlalu kencang, 
                 menggunakan pengering rambut (hair dryer) yang terlalu panas, mencatok rambut, atau menggunakan bahan kimia untuk meluruskan (hair rebonding), 
                 mengeriting, atau mewarnai rambut. Untuk mencegah rambut rontok semakin parah, disarankan untuk menghindari produk penataan rambut yang menggunakan 
-                suhu panas dan bahan kimia. Jika perlu, cobalah gunakan produk perawatan rambut, seperti sampo, kondisioner, dan serum rambut, khusus untuk rambut rontok.
+                suhu panas dan bahan kimia. Jika perlu, cobalah gunakan produk perawatan rambut, seperti sampo, kondisioner, dan serum rambut, khusus untuk rambut rontok.</br></br>
+                </br></br><p><a href="https://www.alodokter.com/rambut-rontok#:~:text=Penyebab%20Rambut%20Rontok&text=Rambut%20rontok%20yang%20terjadi%20secara,oleh%20faktor%20genetik%20atau%20keturunan.">Source</a></p>
 
           </h6>
             
@@ -129,7 +130,7 @@
                 Normalnya keramas dilakukan dalam 2 hari sekali, keramas dapat membantu dalam mengurangki angka ketombe do rambut kita, 
                 khususnya menggunakan shampoo yang mengandung zat zat anti-dandruff.
                 </br></br><b>Menggunakan Nutrisi Rambut</b></br>
-                Zat zat seperti  zinc karbonat, natrium klorida, dan zinc pirition, yang mampu menghilangkan ketombe.
+                Zat zat seperti  zinc karbonat, natrium klorida, dan zinc pirition, yang mampu menghilangkan ketombe.</br></br><p><a href="https://www.alodokter.com/ketombe#:~:text=Ketombe%20atau%20dandruff%20merupakan%20kondisi,kulit%20kepala%20bayi%20menjadi%20bersisik.">Source</a></p>          
           </h6>
 
         @elseif($nama_penyakit == "Infeksi pada kulit kepala")
@@ -142,6 +143,8 @@
                 atau <i>ketoconazole</i>. Sampo tersebut digunakan dua kali dalam seminggu, selama 1 bulan. Selanjutnya, pasien disarankan untuk kembali menemui dokter.</br>
                 Jika hasil pemeriksaan menunjukkan jamur masih ada, pemakaian sampo perlu dikombinasikan dengan antijamur oral, seperti <i>griseofulvin</i>, <i>terbinafine</i>,  
                 <i>itraconazole</i>, dan <i>fluconazole</i>. Perlu diketahui, meski cukup efektif, penggunaan <i>griseofulvin</i> dan <i>terbinafine hydrochloride</i> berpotensi menimbulkan efek samping.
+                </br></br><p><a href="https://www.alodokter.com/tinea-capitis#:~:text=Tinea%20capitis%20adalah%20penyakit%20akibat,peradangan%20dan%20kebotakan%20yang%20meluas.">Source</a></p>
+
           </h6>
 
         @elseif($nama_penyakit == "Rambut kering")
@@ -155,7 +158,9 @@
                 melembapkan rambut yang kering.</br></br><b>Jangan Sering Terpapar Panas</b></br>Hindari terlalu sering melakukan penataan rambut yang menggunakan suhu panas, misalnya dengan pengering, 
                 pengeriting, atau pelurus rambut.Saat mandi, sebaiknya hindari juga pemakaian air panas yang terlalu sering. Setelah keramas, Anda cukup mengeringkan rambut dengan handuk secara 
                 pelan dan lembut, agar kelembapan rambut tetap terjaga.
-          </h6>
+                </br></br><a href="https://www.alodokter.com/trik-melakukan-perawatan-rambut-kering#:~:text=Seseorang%20bisa%20mengalami%20rambut%20kering,mengandung%20klorin%20atau%20di%20laut.">Source</a>
+          
+              </h6>
 
         @elseif($nama_penyakit == "Kulit kepala berminyak")
           <h6 style= "text-align: justify;">Rambut kering bisa terjadi bila kulit kepala tidak memproduksi cukup minyak untuk melembapkan rambut atau bila lapisan pelindung 
@@ -168,6 +173,8 @@
                 melembapkan rambut yang kering.</br></br><b>Jangan Sering Terpapar Panas</b></br>Hindari terlalu sering melakukan penataan rambut yang menggunakan suhu panas, misalnya dengan pengering, 
                 pengeriting, atau pelurus rambut.Saat mandi, sebaiknya hindari juga pemakaian air panas yang terlalu sering. Setelah keramas, Anda cukup mengeringkan rambut dengan handuk secara 
                 pelan dan lembut, agar kelembapan rambut tetap terjaga.
+
+                </br></br><a href="https://www.alodokter.com/komunitas/topic/rambut-lepek-dan-berminyak">Source</a>
           </h6>
 
         @endif
@@ -177,9 +184,14 @@
     <?php
             $aray = array("KerontokkanRambut" => $presentaseKelK01, "Ketombe" => $presentaseKelK02, "InfeksiKulitkepala" => $presentaseKelK03, "RambutKering" => $presentaseKelK04, "KulitMinyak"=> $presentaseKelK05);
             $maxx = max($aray);
+            $cek1 = 0;
+            $cek2 = 0;
+            $cek3 = 0;
+            $cek4 = 0;
+            $cek5 = 0;
             foreach($aray as $tertinggi){
-              if($presentaseKelK01 == $maxx){
-                ?><h3>Karena tidak ada presentase penyakit yang 100%, berdasarkan database kita disimpuplkan Kemungkinan terbesar adalah Penyakit : Kerontokkan Rambut</h3>
+              if($presentaseKelK01 == $maxx && $cek1 == 0){
+                ?><h3>Kemungkinan Penyakit : Kerontokkan Rambut</h3>
                 <h6 style= "text-align: justify;">Rambut rontok bisa terjadi pada siapa saja, baik pria maupun wanita. 
                 Kondisi ini bisa disebabkan oleh berbagai hal, mulai dari faktor genetik hingga penyakit tertentu, seperti kurang gizi atau malnutrisi, 
                 alopecia areata, infeksi jamur di kulit kepala, dan masalah tiroid atau gangguan hormon yang lain.
@@ -208,15 +220,16 @@
                 menggunakan pengering rambut (hair dryer) yang terlalu panas, mencatok rambut, atau menggunakan bahan kimia untuk meluruskan (hair rebonding), 
                 mengeriting, atau mewarnai rambut. Untuk mencegah rambut rontok semakin parah, disarankan untuk menghindari produk penataan rambut yang menggunakan 
                 suhu panas dan bahan kimia. Jika perlu, cobalah gunakan produk perawatan rambut, seperti sampo, kondisioner, dan serum rambut, khusus untuk rambut rontok.
+                </br></br><p><a href="https://www.alodokter.com/rambut-rontok#:~:text=Penyebab%20Rambut%20Rontok&text=Rambut%20rontok%20yang%20terjadi%20secara,oleh%20faktor%20genetik%20atau%20keturunan.">Source</a></p>
 
                 </h6>
                 
 
-                <?php
-                break;
+                <?php $cek1 =1;
+                
               }
-              else if($presentaseKelK02 == $maxx){
-                ?><h3>Karena tidak ada presentase penyakit yang 100%, berdasarkan database kita disimpuplkan Kemungkinan terbesar adalah Penyakit : Ketombe (Dandruff)</h3>
+              else if($presentaseKelK02 == $maxx && $cek2 == 0){
+                ?><h3>Kemungkinan Penyakit : Ketombe (Dandruff)</h3>
                 <h6 style= "text-align: justify;">Ketombe adalah serpihan kulit kepala yang berwarna putih atau kuning. 
                 Serpihan ini mudah terlihat di kepala dan sering berjatuhan ke bahu. Meski tidak menular dan sangat jarang menjadi 
                 penyakit serius, ketombe di kepala dapat menurunkan rasa percaya diri penderitanya.Ketombe atau dandruff merupakan 
@@ -226,13 +239,15 @@
                 Normalnya keramas dilakukan dalam 2 hari sekali, keramas dapat membantu dalam mengurangki angka ketombe do rambut kita, 
                 khususnya menggunakan shampoo yang mengandung zat zat anti-dandruff.
                 </br></br><b>Menggunakan Nutrisi Rambut</b></br>
-                Zat zat seperti  zinc karbonat, natrium klorida, dan zinc pirition, yang mampu menghilangkan ketombe.
+                Zat zat seperti  zinc karbonat, natrium klorida, dan zinc pirition, yang mampu menghilangkan ketombe.</br></br>
+                <p><a href="https://www.alodokter.com/ketombe#:~:text=Ketombe%20atau%20dandruff%20merupakan%20kondisi,kulit%20kepala%20bayi%20menjadi%20bersisik">Source</a></p>
                 </h6>
                 <?php
-                break;
+                $cek2 =1;
+                
               }
-              else if($presentaseKelK03 == $maxx){
-                ?><h3>Karena tidak ada presentase penyakit yang 100%, berdasarkan database kita disimpuplkan Kemungkinan terbesar adalah Penyakit : Infeksi Pada Kulit Kepala</h3>
+              else if($presentaseKelK03 == $maxx && $cek3 == 0){
+                ?><h3>Kemungkinan Penyakit : Infeksi Pada Kulit Kepala</h3>
                 <h6 style= "text-align: justify;">Infeksi pada kulit kepala(<i>Tinea capitis</i>) akibat infeksi jamur di kulit kepala dan batang rambut. 
                 Gejala yang muncul dapat berupa kulit kepala gatal, bersisik, pitak, hingga peradangan dan kebotakan yang meluas. 
                 (<i>Tinea capitis</i>) atau kurap kulit kepala dapat dialami oleh semua orang. Namun, penyakit ini lebih banyak terjadi pada 
@@ -242,12 +257,16 @@
                 atau <i>ketoconazole</i>. Sampo tersebut digunakan dua kali dalam seminggu, selama 1 bulan. Selanjutnya, pasien disarankan untuk kembali menemui dokter.</br>
                 Jika hasil pemeriksaan menunjukkan jamur masih ada, pemakaian sampo perlu dikombinasikan dengan antijamur oral, seperti <i>griseofulvin</i>, <i>terbinafine</i>,  
                 <i>itraconazole</i>, dan <i>fluconazole</i>. Perlu diketahui, meski cukup efektif, penggunaan <i>griseofulvin</i> dan <i>terbinafine hydrochloride</i> berpotensi menimbulkan efek samping.
+                </br></br><p><a href="https://www.alodokter.com/tinea-capitis#:~:text=Tinea%20capitis%20adalah%20penyakit%20akibat,peradangan%20dan%20kebotakan%20yang%20meluas.">Source</a></p>
+
+              
                 </h6>
                 <?php
-                break;
+                $cek3 =1;
+                
               }
-              else if($presentaseKelK04 == $maxx){
-                ?><h3>Karena tidak ada presentase penyakit yang 100%, berdasarkan database kita disimpuplkan Kemungkinan Penyakit : Rambut Kering</h3>
+              else if($presentaseKelK04 == $maxx && $cek4 == 0){
+                ?><h3>Kemungkinan Penyakit : Rambut Kering</h3>
                 <h6 style= "text-align: justify;">Rambut kering bisa terjadi bila kulit kepala tidak memproduksi cukup minyak untuk melembapkan rambut atau bila lapisan pelindung 
                 rambut (kutikula) mengalami kerusakan. Dengan menghindari beragam penyebabnya dan melakukan perawatan rambut yang benar, rambut kering bisa diatasi.</br> Masalah 
                 rambut kering umumnya ditandai dengan keluhan berupa rambut terlihat rusak, kusam, tidak berkilau, mudah kusut atau sulit diatur, dan mudah patah sehingga sering kali 
@@ -258,12 +277,16 @@
                 melembapkan rambut yang kering.</br></br><b>Jangan Sering Terpapar Panas</b></br>Hindari terlalu sering melakukan penataan rambut yang menggunakan suhu panas, misalnya dengan pengering, 
                 pengeriting, atau pelurus rambut.Saat mandi, sebaiknya hindari juga pemakaian air panas yang terlalu sering. Setelah keramas, Anda cukup mengeringkan rambut dengan handuk secara 
                 pelan dan lembut, agar kelembapan rambut tetap terjaga.
+                </br></br><a href="https://www.alodokter.com/trik-melakukan-perawatan-rambut-kering#:~:text=Seseorang%20bisa%20mengalami%20rambut%20kering,mengandung%20klorin%20atau%20di%20laut.">Source</a>
+          
+
                 </h6>
                 <?php
-                break;
+                $cek4 =1;
+                
               }
-              else if($presentaseKelK05 == $maxx){
-                ?><h3>Karena tidak ada presentase penyakit yang 100%, berdasarkan database kita disimpuplkan Kemungkinan Penyakit : Kulit Kepala Berminyak</h3>
+              else if($presentaseKelK05 == $maxx && $cek5 == 0){
+                ?><h3>Kemungkinan Penyakit : Kulit Kepala Berminyak</h3>
                 <h6 style= "text-align: justify;">Normalnya memang kulit kepala mengandung minyak alami (sebum) yang diproduksi oleh kelenjar minyak (sebaceous glands). Namun terkadang kelenjar ini bekerja 
                 terlalu keras hingga menghasilkan lebih banyak minyak dan mengakibatkan kulit kepala menjadi berminyak, rambut pun terlihat kusam, lepek, lemas, tidak bernyawa, dan sulit untuk ditata. 
                 Berikut adalah cara untuk mengobati kulit kepala yang berminyak : </br></br>
@@ -273,9 +296,12 @@
                   <li>Gunakan sampo khusus untuk rambut berminyak untuk menghilangkan minyak berlebih tanpa membuat rambut menjadi kering.</li>
                   <li>Rendam rambut dalam campuran seperempat cangkir cuka dan satu baskom kecil air. Lalu bilas dengan air hangat.</li>
                 </ul>
+
+                </br></br><a href="https://www.alodokter.com/komunitas/topic/rambut-lepek-dan-berminyak">Source</a>
                 </h6>
                 <?php
-                break;
+                $cek5 = 1;
+                
               }
             }
             ?>
