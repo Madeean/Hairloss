@@ -44,7 +44,7 @@
                 @csrf
                 <div class="row">
                     <div class="col-4 mt-2">
-                        <ul class="list-group ">
+                        <ul class="list-group">
                             <li class="list-group-item card_checkbox">
                               <input class="form-check-input me-1" name="gejala[]" type="checkbox" value="B1" id="b01">
                               <label class="form-check-label stretched-link" for="b01">Adanya rasa gatal dan serpihan berwarna putih</label>
