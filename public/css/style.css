@@ -10,6 +10,21 @@ body {
     background: #f3f1f3;
 }
 
+.btn{
+    background-color:#E23E07;
+    color: var(--light);
+}
+
+.btn:hover{
+    background-color:#E23E07;
+    color: var(--light);
+}
+
+.btn:focus-within{
+    background-color:#fba504;
+    color: var(--light);
+}
+
 :root {
     --primary: #e23e07;
     --secondary: #fba504;
@@ -97,6 +112,7 @@ h6,
   background-color: #E23E07;
   height:10%;
 }
+
 .navbar-light .navbar-nav .nav-link {
     position: relative;
     margin-right: 25px;

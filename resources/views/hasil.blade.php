@@ -23,26 +23,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav mx-auto py-0">
-            <a href="/" class="nav-item nav-link">Home</a>
-            <a href="/about-us" class="nav-item nav-link">About Us</a>
+            <a href="/" class="nav-item nav-link">Beranda</a>
+            <a href="/about-us" class="nav-item nav-link">Tentang</a>
         </div>
         </div>
     </nav>
     <div class="container py-5 px-lg-5">
-        <div style="visibility: visible;">
-            <p class="section-title text-secondary justify-content-center"></p>
-            <h1 class="text-center mb-2">Hasil Persentase</h1>
-        </div>
+      <div style="visibility: visible; margin-top:25px">
+        <h1 class="text-center mb-2">Hasil Persentase</h1>
+      </div>
 
         <?php
         function formatAmount(string|float|int $value, int $decimals = 2): string
         {
-            if (floatval(intval($value)) === floatval($value)) {
-                // The number is an integer. Remove all the decimals
-                return (string)intval($value);
-            }
-        
-            return number_format($value, $decimals);
+          if (floatval(intval($value)) === floatval($value)) {
+            // The number is an integer. Remove all the decimals
+            return (string)intval($value);
+          }
+      
+          return number_format($value, $decimals);
         }
         ?>
 
@@ -101,30 +100,30 @@
 
         @if ($nama_penyakit == "Kerontokan Rambut")
           <h6 style= "text-align: justify;">Rambut rontok bisa terjadi pada siapa saja, baik pria maupun wanita. 
-                Kondisi ini bisa disebabkan oleh berbagai hal, mulai dari faktor genetik hingga penyakit tertentu, seperti kurang gizi atau malnutrisi, 
-                <i>alopecia areata</i>, infeksi jamur di kulit kepala, dan masalah tiroid atau gangguan hormon yang lain.
-                </br>Selain itu, rambut rontok juga bisa terjadi karena kesalahan dalam merawat dan menata rambut hingga efek samping obat-obatan tertentu, 
-                seperti kemoterapi dan pil KB. Karena rambut rontok bisa disebabkan oleh berbagai hal, perawatan rambut rontok pun perlu disesuaikan dengan penyebabnya. 
-                Cara merawat rambut rontok ini bisa dilakukan secara alami maupun dengan menggunakan obat-obatan. 
-                Berikut adalah <i>treatment</i> yang bisa Anda lakukan :</br></br>
-                <b>Konsumsi Makanan Bergizi</b></br> 
-                Kekurangan nutrisi bisa menjadi penyebab rambut rapuh dan mudah rontok. Agar tumbuh kuat, indah, dan tidak mudah rontok, 
-                rambut memerlukan berbagai nutrisi, seperti protein, zat besi, <i>zinc</i>, asam folat, vitamin A, vitamin D, vitamin E, biotin, 
-                dan antioksidan.</br>Nutrisi-nutrisi tersebut bisa diperoleh dengan mengonsumsi makanan tertentu, seperti telur, ikan berlemak, 
-                daging, makanan laut, bayam, alpukat, kacang-kacangan, biji-bijian, dan kacang kedelai.</br>Selain itu, Anda juga bisa mengonsumsi 
-                suplemen sesuai rekomendasi dokter jika nutrisi dari makanan dirasa kurang.
-                </br></br><b>Menata Rambut Dengan Benar</b></br>
-                Cara menata rambut yang tidak tepat juga bisa menyebabkan rambut mudah rusak, patah, dan rontok. Misalnya, mengikat rambut terlalu kencang, 
-                menggunakan pengering rambut (<i>hair dryer</i>) yang terlalu panas, mencatok rambut, atau menggunakan bahan kimia untuk meluruskan (<i>hair rebonding</i>), 
-                mengeriting, atau mewarnai rambut. Untuk mencegah rambut rontok semakin parah, disarankan untuk menghindari produk penataan rambut yang 
-                menggunakan suhu panas dan bahan kimia. Jika perlu, cobalah gunakan produk perawatan rambut, seperti sampo, kondisioner, dan serum rambut, 
-                khusus untuk rambut rontok.
-                </br></br><b>Mengelola Stress Diri</b></br>
-                Sering stres merupakan salah satu faktor risiko terjadinya rambut rontok. Saat Anda mengalami stres berat, hormon-hormon 
-                di dalam tubuh akan mengalami perubahan. Perubahan hormon inilah yang memicu kerontokan rambut. Oleh karena itu, Anda disarankan untuk mengelola 
-                stres agar rambut Anda tidak semakin rontok.            
-                </br></br><b>Sumber Referensi :</b>
-                <p><a href="https://www.alodokter.com/rambut-rontok#:~:text=Penyebab%20Rambut%20Rontok&text=Rambut%20rontok%20yang%20terjadi%20secara,oleh%20faktor%20genetik%20atau%20keturunan.">Rambut Rontok - Alodokter</a></p>
+            Kondisi ini bisa disebabkan oleh berbagai hal, mulai dari faktor genetik hingga penyakit tertentu, seperti kurang gizi atau malnutrisi, 
+            <i>alopecia areata</i>, infeksi jamur di kulit kepala, dan masalah tiroid atau gangguan hormon yang lain.
+            </br>Selain itu, rambut rontok juga bisa terjadi karena kesalahan dalam merawat dan menata rambut hingga efek samping obat-obatan tertentu, 
+            seperti kemoterapi dan pil KB. Karena rambut rontok bisa disebabkan oleh berbagai hal, perawatan rambut rontok pun perlu disesuaikan dengan penyebabnya. 
+            Cara merawat rambut rontok ini bisa dilakukan secara alami maupun dengan menggunakan obat-obatan. 
+            Berikut adalah <i>treatment</i> yang bisa Anda lakukan :</br></br>
+            <b>Konsumsi Makanan Bergizi</b></br> 
+            Kekurangan nutrisi bisa menjadi penyebab rambut rapuh dan mudah rontok. Agar tumbuh kuat, indah, dan tidak mudah rontok, 
+            rambut memerlukan berbagai nutrisi, seperti protein, zat besi, <i>zinc</i>, asam folat, vitamin A, vitamin D, vitamin E, biotin, 
+            dan antioksidan.</br>Nutrisi-nutrisi tersebut bisa diperoleh dengan mengonsumsi makanan tertentu, seperti telur, ikan berlemak, 
+            daging, makanan laut, bayam, alpukat, kacang-kacangan, biji-bijian, dan kacang kedelai.</br>Selain itu, Anda juga bisa mengonsumsi 
+            suplemen sesuai rekomendasi dokter jika nutrisi dari makanan dirasa kurang.
+            </br></br><b>Menata Rambut Dengan Benar</b></br>
+            Cara menata rambut yang tidak tepat juga bisa menyebabkan rambut mudah rusak, patah, dan rontok. Misalnya, mengikat rambut terlalu kencang, 
+            menggunakan pengering rambut (<i>hair dryer</i>) yang terlalu panas, mencatok rambut, atau menggunakan bahan kimia untuk meluruskan (<i>hair rebonding</i>), 
+            mengeriting, atau mewarnai rambut. Untuk mencegah rambut rontok semakin parah, disarankan untuk menghindari produk penataan rambut yang 
+            menggunakan suhu panas dan bahan kimia. Jika perlu, cobalah gunakan produk perawatan rambut, seperti sampo, kondisioner, dan serum rambut, 
+            khusus untuk rambut rontok.
+            </br></br><b>Mengelola Stress Diri</b></br>
+            Sering stres merupakan salah satu faktor risiko terjadinya rambut rontok. Saat Anda mengalami stres berat, hormon-hormon 
+            di dalam tubuh akan mengalami perubahan. Perubahan hormon inilah yang memicu kerontokan rambut. Oleh karena itu, Anda disarankan untuk mengelola 
+            stres agar rambut Anda tidak semakin rontok.            
+            </br></br><b>Sumber Referensi :</b>
+            <p><a href="https://www.alodokter.com/rambut-rontok#:~:text=Penyebab%20Rambut%20Rontok&text=Rambut%20rontok%20yang%20terjadi%20secara,oleh%20faktor%20genetik%20atau%20keturunan." target="_blank">Rambut Rontok - Alodokter</a></p>
           </h6>
             
         @elseif($nama_penyakit == "Ketombe (Dandruff)")
@@ -139,7 +138,7 @@
                 </br></br><b>Menggunakan Nutrisi Rambut</b></br>
                 Zat-zat seperti <i>zinc</i> karbonat, natrium klorida, dan <i>zinc pyrithione</i> yang mampu menghilangkan ketombe.
                 </br></br><b>Sumber Referensi :</b>
-                <p><a href="</br></br><>https://www.alodokter.com/ketombe#:~:text=Ketombe%20atau%20dandruff%20merupakan%20kondisi,kulit%20kepala%20bayi%20menjadi%20bersisik.">Ketombe - Alodokter</a></p>          
+                <p><a href="</br></br><>https://www.alodokter.com/ketombe#:~:text=Ketombe%20atau%20dandruff%20merupakan%20kondisi,kulit%20kepala%20bayi%20menjadi%20bersisik." target="_blank">Ketombe - Alodokter</a></p>          
           </h6>
 
         @elseif($nama_penyakit == "Infeksi pada kulit kepala")
@@ -153,7 +152,7 @@
                 Jika hasil pemeriksaan menunjukkan jamur masih ada, pemakaian sampo perlu dikombinasikan dengan antijamur oral, seperti <i>griseofulvin</i>, <i>terbinafine</i>,  
                 <i>itraconazole</i>, dan <i>fluconazole</i>. Perlu diketahui, meski cukup efektif, penggunaan <i>griseofulvin</i> dan <i>terbinafine hydrochloride</i> berpotensi menimbulkan efek samping.
                 </br></br><b>Sumber Referensi :</b> 
-                <p><a href="https://www.alodokter.com/tinea-capitis#:~:text=Tinea%20capitis%20adalah%20penyakit%20akibat,peradangan%20dan%20kebotakan%20yang%20meluas.">Tinea Capitis - Alodokter</a></p>
+                <p><a href="https://www.alodokter.com/tinea-capitis#:~:text=Tinea%20capitis%20adalah%20penyakit%20akibat,peradangan%20dan%20kebotakan%20yang%20meluas." target="_blank">Tinea Capitis - Alodokter</a></p>
           </h6>
 
         @elseif($nama_penyakit == "Rambut kering")
@@ -168,7 +167,7 @@
                 pengeriting, atau pelurus rambut.Saat mandi, sebaiknya hindari juga pemakaian air panas yang terlalu sering. Setelah keramas, Anda cukup mengeringkan rambut dengan handuk secara 
                 pelan dan lembut, agar kelembapan rambut tetap terjaga.
                 </br></br><b>Sumber Referensi :</b>
-                <p><a href="https://www.alodokter.com/trik-melakukan-perawatan-rambut-kering#:~:text=Seseorang%20bisa%20mengalami%20rambut%20kering,mengandung%20klorin%20atau%20di%20laut.">Rambut Kering, Ini Penyebab dan Cara Merawatnya - Alodokter</a></p>
+                <p><a href="https://www.alodokter.com/trik-melakukan-perawatan-rambut-kering#:~:text=Seseorang%20bisa%20mengalami%20rambut%20kering,mengandung%20klorin%20atau%20di%20laut." target="_blank">Rambut Kering, Ini Penyebab dan Cara Merawatnya - Alodokter</a></p>
               </h6>
 
         @elseif($nama_penyakit == "Kulit kepala berminyak")
@@ -182,7 +181,7 @@
                   <li>Rendam rambut dalam campuran seperempat cangkir cuka dan satu baskom kecil air. Lalu bilas dengan air hangat.</li>
                 </ul>
                 </br></br><b>Sumber Referensi :</b>
-                <p><a href="https://www.alodokter.com/komunitas/topic/rambut-lepek-dan-berminyak">Solusi atas Rambut Berminyak - Alodokter</a></p>
+                <p><a href="https://www.alodokter.com/komunitas/topic/rambut-lepek-dan-berminyak" target="_blank">Solusi atas Rambut Berminyak - Alodokter</a></p>
           </h6>
 
         @endif
@@ -223,7 +222,7 @@
                 di dalam tubuh akan mengalami perubahan. Perubahan hormon inilah yang memicu kerontokan rambut. Oleh karena itu, Anda disarankan untuk mengelola 
                 stres agar rambut Anda tidak semakin rontok.
                 </br></br><b>Sumber Referensi :</b>
-                </br></br><p><a href="https://www.alodokter.com/rambut-rontok#:~:text=Penyebab%20Rambut%20Rontok&text=Rambut%20rontok%20yang%20terjadi%20secara,oleh%20faktor%20genetik%20atau%20keturunan.">Rambut Rontok - Alodokter</a></p>
+                </br></br><p><a href="https://www.alodokter.com/rambut-rontok#:~:text=Penyebab%20Rambut%20Rontok&text=Rambut%20rontok%20yang%20terjadi%20secara,oleh%20faktor%20genetik%20atau%20keturunan." target="_blank">Rambut Rontok - Alodokter</a></p>
                 </h6>                
 
                 <?php $cek1 = 1;
@@ -242,7 +241,7 @@
                 </br></br><b>Menggunakan Nutrisi Rambut</b></br>
                 Zat-zat seperti <i>zinc</i> karbonat, natrium klorida, dan <i>zinc pyrithione</i> yang mampu menghilangkan ketombe.
                 </br></br><b>Sumber Referensi :</b>
-                <p><a href="https://www.alodokter.com/ketombe#:~:text=Ketombe%20atau%20dandruff%20merupakan%20kondisi,kulit%20kepala%20bayi%20menjadi%20bersisik">Ketombe - Alodokter</a></p>
+                <p><a href="https://www.alodokter.com/ketombe#:~:text=Ketombe%20atau%20dandruff%20merupakan%20kondisi,kulit%20kepala%20bayi%20menjadi%20bersisik" target="_blank">Ketombe - Alodokter</a></p>
                 
                 </h6>
                 <?php
@@ -261,7 +260,7 @@
                 Jika hasil pemeriksaan menunjukkan jamur masih ada, pemakaian sampo perlu dikombinasikan dengan antijamur oral, seperti <i>griseofulvin</i>, <i>terbinafine</i>,  
                 <i>itraconazole</i>, dan <i>fluconazole</i>. Perlu diketahui, meski cukup efektif, penggunaan <i>griseofulvin</i> dan <i>terbinafine hydrochloride</i> berpotensi menimbulkan efek samping.
                 </br></br><b>Sumber Referensi :</b>
-                <p><a href="https://www.alodokter.com/tinea-capitis#:~:text=Tinea%20capitis%20adalah%20penyakit%20akibat,peradangan%20dan%20kebotakan%20yang%20meluas.">Tinea Capitis - Alodokter</a></p>
+                <p><a href="https://www.alodokter.com/tinea-capitis#:~:text=Tinea%20capitis%20adalah%20penyakit%20akibat,peradangan%20dan%20kebotakan%20yang%20meluas." target="_blank">Tinea Capitis - Alodokter</a></p>
         
                 </h6>
                 <?php
@@ -281,7 +280,7 @@
                 pengeriting, atau pelurus rambut.Saat mandi, sebaiknya hindari juga pemakaian air panas yang terlalu sering. Setelah keramas, Anda cukup mengeringkan rambut dengan handuk secara 
                 pelan dan lembut, agar kelembapan rambut tetap terjaga.
                 </br></br><b>Sumber Referensi :</b>
-                <p><a href="https://www.alodokter.com/trik-melakukan-perawatan-rambut-kering#:~:text=Seseorang%20bisa%20mengalami%20rambut%20kering,mengandung%20klorin%20atau%20di%20laut.">Rambut Kering, Ini Penyebab dan Cara Merawatnya - Alodokter</a></p>
+                <p><a href="https://www.alodokter.com/trik-melakukan-perawatan-rambut-kering#:~:text=Seseorang%20bisa%20mengalami%20rambut%20kering,mengandung%20klorin%20atau%20di%20laut." target="_blank">Rambut Kering, Ini Penyebab dan Cara Merawatnya - Alodokter</a></p>
           
                 </h6>
                 <?php
@@ -300,7 +299,7 @@
                   <li>Rendam rambut dalam campuran seperempat cangkir cuka dan satu baskom kecil air. Lalu bilas dengan air hangat.</li>
                 </ul>
                 </br></br><b>Sumber Referensi :</b>
-                <p><a href="https://www.alodokter.com/komunitas/topic/rambut-lepek-dan-berminyak">Solusi atas Rambut Berminyak - Alodokter</a></p>
+                <p><a href="https://www.alodokter.com/komunitas/topic/rambut-lepek-dan-berminyak" target="_blank">Solusi atas Rambut Berminyak - Alodokter</a></p>
                 </h6>
                 <?php
                 $cek5 = 1;
@@ -314,7 +313,7 @@
            
 
         <div class="d-grid gap-2 col-2 mx-auto">
-            <a type="button" class="btn btn-primary py-sm-2 px-sm-4 rounded-pill" href="/periksa" style="margin-top:30px; font-weight:bold;">Kembali</a>
+            <a type="button" class="btn py-sm-2 px-sm-4 rounded-pill" href="/periksa" style="margin-top:30px; font-weight:bold;">Kembali</a>
         </div>
     </div>
     <div class="container-fluid bg-primary text-light footer" style="visibility: visible;">

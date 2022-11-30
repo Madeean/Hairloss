@@ -23,15 +23,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav mx-auto py-0">
-          <a href="/" class="nav-item nav-link">Home</a>
-          <a href="/about-us" class="nav-item nav-link active">About Us</a>
+          <a href="/" class="nav-item nav-link">Beranda</a>
+          <a href="/about-us" class="nav-item nav-link active">Tentang</a>
         </div>
       </div>
     </nav>
     <div class="container py-5 px-lg-5">
-      <div style="visibility: visible;">
-          <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p>
-          <h1 class="text-center mb-5">Our Team Members</h1>
+      <div style="visibility: visible; margin-top:25px">
+        <h1 class="text-center mb-5">Anggota Tim</h1>
       </div>
       <div class="row g-4">
         <div class="col-lg-4 col-md-6" style="visibility: visible;">
