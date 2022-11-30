@@ -51,7 +51,7 @@
               <p class="mb-2">{{ formatAmount($presentaseKelK01).'%' }}</p>
             </div>
             <div class="progress">
-              <div class="progress-bar bg-primary" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK01 }}%;"></div>
+              <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK01 }}%; background-color:#e2ba07;"></div>
               </div>
         </div>
 
@@ -61,7 +61,7 @@
               <p class="mb-2">{{ formatAmount($presentaseKelK02).'%' }}</p>
             </div>
             <div class="progress">
-              <div class="progress-bar bg-secondary" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK02 }}%;"></div>
+              <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK02 }}%; background-color:#04d6fb;"></div>
               </div>
         </div>
 
@@ -71,7 +71,7 @@
               <p class="mb-2">{{ formatAmount($presentaseKelK03).'%' }}</p>
             </div>
             <div class="progress">
-              <div class="progress-bar bg-third" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK03 }}%;"></div>
+              <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK03 }}%; background-color:#cefb04;"></div>
               </div>
         </div>
 
@@ -81,7 +81,7 @@
               <p class="mb-2">{{ formatAmount($presentaseKelK04).'%' }}</p>
             </div>
             <div class="progress">
-              <div class="progress-bar bg-fourth" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK04 }}%;"></div>
+              <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK04 }}%; background-color:#e20787;"></div>
               </div>
         </div>
 
@@ -91,7 +91,7 @@
               <p class="mb-2">{{  formatAmount($presentaseKelK05).'%' }}</p>
             </div>
             <div class="progress">
-              <div class="progress-bar bg-dark" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK05 }}%;"></div>
+              <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{ $presentaseKelK05 }}%; background-color:#e20707;"></div>
               </div>
         </div>
         @forelse ($penyakitYangDiderita as $nama_penyakit)
