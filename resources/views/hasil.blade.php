@@ -57,7 +57,7 @@
 
         <div class="skill mb-4">
             <div class="d-flex justify-content-between">
-              <p class="mb-2">Ketombe (Dandruff)</p>
+              <p class="mb-2">Ketombe (<i>Dandruff</i>)</p>
               <p class="mb-2">{{ formatAmount($presentaseKelK02).'%' }}</p>
             </div>
             <div class="progress">
@@ -197,7 +197,9 @@
             $cek5 = 0;
             foreach($aray as $tertinggi){
               if($presentaseKelK01 == $maxx && $cek1 == 0){
-                ?><h3>Kemungkinan Penyakit : Kerontokkan Rambut</h3>
+                ?><br>
+                <h3>Kemungkinan Penyakit: Kerontokan Rambut</h3>
+                <img class="kemungkinan img-fluid" src="img/rontok.png" style="visibility: visible;">
                 <h6 style= "text-align: justify;">Rambut rontok bisa terjadi pada siapa saja, baik pria maupun wanita. 
                 Kondisi ini bisa disebabkan oleh berbagai hal, mulai dari faktor genetik hingga penyakit tertentu, seperti kurang gizi atau malnutrisi, 
                 <i>alopecia areata</i>, infeksi jamur di kulit kepala, dan masalah tiroid atau gangguan hormon yang lain.
@@ -229,7 +231,9 @@
                 
               }
               else if($presentaseKelK02 == $maxx && $cek2 == 0){
-                ?><h3>Kemungkinan Penyakit : Ketombe (Dandruff)</h3>
+                ?><br>
+                <h3>Kemungkinan Penyakit: Ketombe (<i>Dandruff</i>)</h3>
+                <img class="kemungkinan img-fluid" src="img/ketombe.png" style="visibility: visible;">
                 <h6 style= "text-align: justify;">Ketombe adalah serpihan kulit kepala yang berwarna putih atau kuning. 
                 Serpihan ini mudah terlihat di kepala dan sering berjatuhan ke bahu. Meski tidak menular dan sangat jarang menjadi 
                 penyakit serius, ketombe di kepala dapat menurunkan rasa percaya diri penderitanya. Ketombe atau <i>dandruff</i> merupakan 
@@ -249,7 +253,9 @@
                 
               }
               else if($presentaseKelK03 == $maxx && $cek3 == 0){
-                ?><h3>Kemungkinan Penyakit : Infeksi Pada Kulit Kepala</h3>
+                ?><br>
+                <h3>Kemungkinan Penyakit: Infeksi Pada Kulit Kepala</h3>
+                <img class="kemungkinan img-fluid" src="img/infeksi.png" style="visibility: visible;">
                 <h6 style= "text-align: justify;">Infeksi pada kulit kepala(<i>Tinea capitis</i>) akibat infeksi jamur di kulit kepala dan batang rambut. 
                 Gejala yang muncul dapat berupa kulit kepala gatal, bersisik, pitak, hingga peradangan dan kebotakan yang meluas. 
                 (<i>Tinea capitis</i>) atau kurap kulit kepala dapat dialami oleh semua orang. Namun, penyakit ini lebih banyak terjadi pada 
@@ -268,7 +274,9 @@
                 
               }
               else if($presentaseKelK04 == $maxx && $cek4 == 0){
-                ?><h3>Kemungkinan Penyakit : Rambut Kering</h3>
+                ?><br>
+                <h3>Kemungkinan Penyakit: Rambut Kering</h3>
+                <img class="kemungkinan img-fluid" src="img/kering.png" style="visibility: visible;">
                 <h6 style= "text-align: justify;">Rambut kering bisa terjadi bila kulit kepala tidak memproduksi cukup minyak untuk melembapkan rambut atau bila lapisan pelindung 
                 rambut (kutikula) mengalami kerusakan. Dengan menghindari beragam penyebabnya dan melakukan perawatan rambut yang benar, rambut kering bisa diatasi.</br> Masalah 
                 rambut kering umumnya ditandai dengan keluhan berupa rambut terlihat rusak, kusam, tidak berkilau, mudah kusut atau sulit diatur, dan mudah patah sehingga sering kali 
@@ -288,7 +296,9 @@
                 
               }
               else if($presentaseKelK05 == $maxx && $cek5 == 0){
-                ?><h3>Kemungkinan Penyakit : Kulit Kepala Berminyak</h3>
+                ?><br>
+                <h3>Kemungkinan Penyakit: Kulit Kepala Berminyak</h3>
+                <img class="kemungkinan img-fluid" src="img/minyak.png" style="visibility: visible;">
                 <h6 style= "text-align: justify;">Normalnya memang kulit kepala mengandung minyak alami (sebum) yang diproduksi oleh kelenjar minyak (<i>sebaceous glands</i>). Namun terkadang kelenjar ini bekerja 
                 terlalu keras hingga menghasilkan lebih banyak minyak dan mengakibatkan kulit kepala menjadi berminyak, rambut pun terlihat kusam, lepek, lemas, tidak bernyawa, dan sulit untuk ditata. 
                 Berikut adalah cara untuk mengobati kulit kepala yang berminyak : </br></br>
