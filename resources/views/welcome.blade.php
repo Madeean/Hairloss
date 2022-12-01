@@ -45,7 +45,7 @@
                 <p class="mb-2">85%</p>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%; background-color:#e2ba07;"></div>
               </div>
             </div>
             <div class="skill mb-4">
@@ -54,7 +54,7 @@
                 <p class="mb-2">10%</p>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 15%; background-color:#04d6fb;"></div>
               </div>
             </div>
             <div class="skill mb-4">
@@ -63,7 +63,7 @@
                 <p class="mb-2">5%</p>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%; background-color:#e20787;"></div>
                 </div>
               </div>
               <a href="/periksa" class="btn py-sm-2 px-sm-4 rounded-pill" style="font-weight:bold; margin-top: 10px;">Mari Periksa!</a>
