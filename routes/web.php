@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\KemungkinanController;
+use App\Http\Controllers\PenyakitController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post('/periksa', [KemungkinanController::class, 'cekKemungkinan']);
+Route::post('/periksa', [PenyakitController::class, 'cekDs']);
 
 Route::get('/periksa', function () {
     return view('periksa');
